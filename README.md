@@ -1,9 +1,9 @@
-# Responsiveu Ui Builder
+# Responsive Ui Builder
 
 
 ## Getting Started
 
-The responsive ui builder package contains widgets that helps you to craete your UI responsive.
+The responsive ui builder package contains widgets that helps you to create your UI responsive.
 
 
 ## Installation
@@ -47,6 +47,3 @@ ResponsiveUiBuilder(
 ```
 
 This will return different colour containers depending on which device it's being shown on. A simple way to test this is to either run your code on Flutter web and resize the window.
-# Responsive-Ui-builder
-# Responsive-Ui-builder
-# Responsive-Ui-builder
