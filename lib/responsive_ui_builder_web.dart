@@ -31,7 +31,8 @@ class ResponsiveUiBuilderWeb {
       default:
         throw PlatformException(
           code: 'Unimplemented',
-          details: 'responsive_ui_builder for web doesn\'t implement \'${call.method}\'',
+          details:
+              'responsive_ui_builder for web doesn\'t implement \'${call.method}\'',
         );
     }
   }

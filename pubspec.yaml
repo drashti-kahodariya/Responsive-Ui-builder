@@ -1,6 +1,6 @@
 name: responsive_ui_builder
-description: A new Flutter project.
-version: 0.0.1
+description: The responsive ui builder package contains widgets that helps you to create your UI responsive.
+version: 0.0.2
 homepage: https://github.com/drashti-kahodariya/Responsive-Ui-builder/blob/main/example/lib/main.dart
 repository: https://github.com/drashti-kahodariya/Responsive-Ui-builder
 
