@@ -5,7 +5,7 @@
 
 The responsive ui builder package contains widgets that helps you to create your UI responsive.
 
-
+![Responsive UI Builder Preview](https://raw.githubusercontent.com/drashti-kahodariya/Responsive-Ui-builder/main/example/assets/ezgif.com-gif-maker.gif)
 ## Installation
 
 Add responsive_ui_builder as dependency to your pubspec file.
@@ -47,3 +47,4 @@ ResponsiveUiBuilder(
 ```
 
 This will return different colour containers depending on which device it's being shown on. A simple way to test this is to either run your code on Flutter web and resize the window.
+

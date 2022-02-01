@@ -1,7 +1,8 @@
 name: responsive_ui_builder
 description: A new Flutter project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/drashti-kahodariya/Responsive-Ui-builder/blob/main/example/lib/main.dart
+repository: https://github.com/drashti-kahodariya/Responsive-Ui-builder
 
 environment:
   sdk: ">=2.15.1 <3.0.0"
