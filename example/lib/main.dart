@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_ui_builder/responsive_ui_builder.dart';
+import 'package:responsive_ui_builder/sizing_information.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,21 +25,11 @@ class _MyAppState extends State<MyApp> {
         body: Center(
           /// should be pass atleast one peramamerter or more perameter in ResponsiveLayoutBuilder
           child: ResponsiveUiBuilder(
-            small: (context, sm) {
-              return Container(
-                color: Colors.red,
-              );
-            },
-            medium: (context, md) {
-              return Container(
-                color: Colors.yellow,
-              );
-            },
-            large: (context, lg) {
-              return Container(
-                color: Colors.green,
-              );
-            },
+            breakpoints:
+                const ScreenBreakpoints(medium: 600, large: 950, small: 300),
+            small: Container(color: Colors.blue),
+            medium: Container(color: Colors.yellow),
+            large: Container(color: Colors.red),
           ),
         ),
       ),

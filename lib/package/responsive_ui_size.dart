@@ -9,3 +9,5 @@ enum ResponsiveUiSize {
   /// Large layout
   large
 }
+
+enum RefinedSize { small, medium, large }
