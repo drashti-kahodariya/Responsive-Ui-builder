@@ -47,3 +47,23 @@ ResponsiveUiBuilder(
 ```
 
 This will return different colour containers depending on which device it's being shown on. A simple way to test this is to either run your code on Flutter web and resize the window.
+
+## Custom Screen Breakpoints
+
+If you wish to define your own custom break points you can do so by supplying e `ResponsiveUiBuilder` widgets with a `breakpoints` argument.
+
+```dart
+// import the package
+import 'package:responsive_ui_builder/responsive_ui_builder.dart';
+//ScreenTypeLayout with custom breakpoints supplied
+ResponsiveUiBuilder(
+            breakpoints:
+                const ScreenBreakpoints(medium: 600, large: 950, small: 300),
+            small: Container(color: Colors.blue),
+            medium: Container(color: Colors.yellow),
+            large: Container(color: Colors.red),
+          ),
+```
+
+
+

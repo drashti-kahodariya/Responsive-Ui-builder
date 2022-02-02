@@ -1,6 +1,6 @@
 name: responsive_ui_builder
 description: The responsive ui builder package contains widgets that helps you to create your UI responsive.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/drashti-kahodariya/Responsive-Ui-builder/blob/main/example/lib/main.dart
 repository: https://github.com/drashti-kahodariya/Responsive-Ui-builder
 
