@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_ui_builder/get_device_type.dart';
 import 'package:responsive_ui_builder/sizing_information.dart';
